@@ -1,0 +1,95 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.liuyuhang.sell.config.ProjectUrlConfig",
+      "name": "project-url",
+      "type": "com.liuyuhang.sell.config.ProjectUrlConfig"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.DruidDataSourceConfig",
+      "name": "spring.datasource",
+      "sourceMethod": "druidDataSource()",
+      "type": "javax.sql.DataSource"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.WechatAccountConfig",
+      "name": "wechat",
+      "type": "com.liuyuhang.sell.config.WechatAccountConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.liuyuhang.sell.config.ProjectUrlConfig",
+      "name": "project-url.sell",
+      "description": "点餐系统",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.ProjectUrlConfig",
+      "name": "project-url.wechat-mp-authorize",
+      "description": "微信公众平台授权url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.ProjectUrlConfig",
+      "name": "project-url.wechat-open-authorize",
+      "description": "微信开放平台授权url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.WechatAccountConfig",
+      "name": "wechat.key-path",
+      "description": "商户证书路径",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.WechatAccountConfig",
+      "name": "wechat.mch-id",
+      "description": "商户号",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.WechatAccountConfig",
+      "name": "wechat.mch-key",
+      "description": "商户密钥",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.WechatAccountConfig",
+      "name": "wechat.mp-app-id",
+      "description": "公众平台id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.WechatAccountConfig",
+      "name": "wechat.mp-app-secret",
+      "description": "公众平台密钥",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.WechatAccountConfig",
+      "name": "wechat.notify-url",
+      "description": "微信支付异步通知地址",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.WechatAccountConfig",
+      "name": "wechat.open-app-id",
+      "description": "开放平台id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.WechatAccountConfig",
+      "name": "wechat.open-app-secret",
+      "description": "开放平台密钥",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.liuyuhang.sell.config.WechatAccountConfig",
+      "name": "wechat.template-id",
+      "description": "微信模版id",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    }
+  ]
+}
